@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-pt-40 sm:scroll-pt-24">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Althea Nicole Inoc | Student Portfolio</title>
+        <meta
+            name="description"
+            content="Althea Nicole Inoc’s first-year IT portfolio: beginner web projects, class notes, and the skills she is learning."
+        >
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+
+            a:focus-visible {
+                outline: 3px solid #93c5fd;
+                outline-offset: 5px;
+            }
+
+            .skip-link {
+                position: fixed;
+                z-index: 60;
+                top: -80px;
+                left: 20px;
+                padding: 10px 16px;
+                background-color: #0f172a;
+                color: #ffffff;
+            }
+
+            .skip-link:focus {
+                top: 10px;
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                html {
+                    scroll-behavior: auto;
+                }
+
+                a {
+                    transition: none;
+                }
+            }
+        </style>
+    </head>
+    <body class="bg-lime-950 pt-36 font-sans leading-relaxed text-slate-100 sm:pt-20">
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header
+            class="fixed inset-x-0 top-0 z-50 h-36 border-b border-slate-600 bg-black-950/95 backdrop-blur-sm sm:h-20"
+        >
+            <div
+                class="mx-auto flex h-full max-w-6xl flex-wrap items-center justify-between gap-5 px-6 py-5"
+            >
+                <a class="text-xl font-semibold tracking-tight" href="#home">Althea Nicole Inoc<span class="text-slate-200">.</span></a>
+                <nav class="flex w-full flex-wrap gap-5 sm:w-auto" aria-label="Main navigation">
+                    <a class="text-slate-300 hover:text-blue-300 py-2 text-sm" href="#home">Home</a>
+                    <a class="text-slate-300 hover:text-blue-300 py-2 text-sm" href="#about">About</a>
+                    <a class="text-slate-300 hover:text-blue-300 py-2 text-sm" href="#skills">Skills</a>
+                    <a class="text-slate-300 hover:text-blue-300 py-2 text-sm" href="#projects">Projects</a>
+                    <a class="text-slate-300 hover:text-blue-300 py-2 text-sm" href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main id="main" class="mx-auto max-w-6xl px-6" tabindex="-1">
+            <section
+                id="home"
+                class="grid items-center gap-12 py-12 md:grid-cols-2 md:py-16"
+                aria-label="Introduction"
+            >
+                <div>
+                    <p class="mb-5 font-mono text-sm text-lime-200">BSIT / FIRST YEAR</p>
+                    <h1 class="mb-6 text-5xl font-semibold leading-tight tracking-tight md:text-6xl">Hi, I’m Althea Nicole.<br><span class="text-lime-200">Exploring Technology.<br>Building My Future.</span></h1>
+                    <p class="max-w-xl text-lg text-slate-300">
+                        I'm a first-year Information Technology student who is
+                        exploring the world of technology, learning programming,
+                        and developing new skills one step at a time.
+                    </p>
+                    <div class="mt-8 flex flex-wrap items-center gap-6">
+                        <a
+                            class="rounded bg-lime-800 px-5 py-3 font-bold text-slate-200 transition hover:bg-blue-200"
+                            href="#projects"
+                        >
+                            SEE MY PROJECTS
+                        </a>
+                        <a
+                            class="text-slate-100 underline underline-offset-4 hover:text-blue-300"
+                            href="#about"
+                        >
+                            MORE ABOUT ME
+                        </a>
+                    </div>
+                </div>
+                <figure class="mx-auto w-full max-w-sm">
+                    <img
+                        class="w-full rounded-md bg-slate-800 object-contain"
+                        src="assets/images/my-picture.jpg"
+                        alt="Personal profile picture of Althea"
+                        width="600"
+                        height="600"
+                    >
+                    <figcaption class="mt-3 flex justify-between gap-4 text-xs text-slate-300"><span>Althea Nicole Inoc</span><span>First year · BSIT</span></figcaption>
+                </figure>
+            </section>
+            <section
+                id="about"
+                class="grid gap-12 border-t border-slate-600 py-16 md:grid-cols-2"
+                aria-labelledby="about-title"
+            >
+                <div>
+                    <p class="mb-4 font-mono text-sm text-lime-200">A LITTLE BACKGROUND</p>
+                    <h2 id="about-title" class="mb-6 text-3xl font-semibold tracking-tight md:text-4xl">A journey of learning,<br>growing, and discovering my potential.</h2>
+                    <p class="mb-5 text-slate-300">
+                      I'm Althea Nicole Inoc, a first-year Information Technology student at Cordova Public College. 
+                      I chose Information Technology because I see it as an opportunity to build a better future for myself.
+                        
+                    </p>
+                    <p class="mb-5 text-slate-300">
+                        I want to gain knowledge, develop valuable skills,
+                        and explore the many possibilities that technology can offer.
+                    </p>
+                    <p class="text-slate-300">
+                        Although I am still at the beginning of my journey, I hope to become someone 
+                        who can use what she learns to create meaningful things, face new challenges, 
+                        and achieve her goals in the future.
+                    </p>
+                </div>
+                <div>
+                    <aside class="rounded-md bg-lime-800 p-6">
+                        <p class="mb-4 font-mono text-xs text-lime-500">MY COLLEGE CHAPTER</p>
+                        <h3 class="mb-3 text-xl font-semibold">BS Information Technology</h3>
+                        <p class="mb-4 text-slate-300">Cordova Public College<br>First year · 2026 — Present</p>
+                        <p class="text-sm text-slate-300">Introduction to Computing, Computer Programming, and Office Productivity Tools.</p>
+                    </aside>
+                    <p class="mt-6 text-slate-300">
+                        My goal is to improve my programming skills,
+                        understand how technology works, and gain more
+                        confidence in creating projects of my own.
+                    </p>
+                </div>
+            </section>
+            <section id="skills" class="py-16" aria-labelledby="skills-title">
+                <p class="mb-4 font-mono text-sm text-lime-200">WHAT I’M LEARNING</p>
+                <h2 id="skills-title" class="mb-8 text-3xl font-semibold tracking-tight md:text-4xl">My skills and areas of learning.</h2>
+                <div class="grid gap-x-12 md:grid-cols-2">
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-lime-300">01 / WEB STRUCTURE</p>
+                        <h3 class="mb-3 text-2xl font-semibold">HTML5</h3>
+                        <p class="text-slate-300">
+                            I am learning how to create and organize web
+                            pages using HTML. I have practiced using
+                            headings, paragraphs, links, images, and other
+                            basic HTML elements.
+                        </p>
+                    </article>
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-lime-300">02 / WEB DESIGN</p>
+                        <h3 class="mb-3 text-2xl font-semibold">CSS3</h3>
+                        <p class="text-slate-300">
+                            I am learning how to style web pages using
+                            colors, fonts, spacing, and layouts. I am also
+                            exploring how to make websites look organized
+                            and responsive.
+                        </p>
+                    </article>
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-lime-300">03 / PROGRAMMING</p>
+                        <h3 class="mb-3 text-2xl font-semibold">C Language</h3>
+                        <p class="text-slate-300">
+                            I have started learning the basics of C
+                            programming, including variables, input and
+                            output, conditional statements, loops, and
+                            simple problem-solving activities.
+                        </p>
+                    </article>
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-lime-300">04 / OFFICE PRODUCTIVITY</p>
+                        <h3 class="mb-3 text-2xl font-semibold">Microsoft Office</h3>
+                        <p class="text-slate-300">
+                            Learning how to use productivity applications such as 
+                            Microsoft Word, Excel, and PowerPoint to create documents, 
+                            organize information, work with spreadsheets, and prepare presentations.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section id="projects" class="py-16" aria-labelledby="projects-title">
+                <div class="mb-10 grid items-end gap-6 md:grid-cols-2">
+                    <div>
+                        <p class="mb-4 font-mono text-sm text-lime-200">CLASSWORK &amp; PRACTICE</p>
+                        <h2 id="projects-title" class="text-3xl font-semibold tracking-tight md:text-4xl">First attempts, kept here.</h2>
+                    </div>
+                    <p class="text-slate-300">Three small layouts that helped me practice the basics. The image previews show what I worked on.</p>
+                </div>
+                <div class="space-y-12">
+                    <article class="grid items-center gap-8 border-t border-slate-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="assets/images/html-page.jpg"
+                            alt="A simple personal profile page with an introduction and interests"
+                            width="800"
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-lime-300">01 / HTML PAGE</p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">A Page About Me</h3>
+                            <p class="mb-5 text-slate-300">
+                                Created a simple HTML webpage about myself using basic HTML elements and tags. 
+                                This activity helped me understand the structure of a webpage and how to display text and other content.
+                            </p>
+                            <a
+                                class="text-sm text-lime-200 underline underline-offset-4 hover:text-blue-200"
+                                href="assets/images/html-page.jpg"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                    <article class="grid items-center gap-8 border-t border-slate-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="assets/images/html-css-page.jpg"
+                            alt="A customer repair request form with service details, input fields, radio buttons, checkboxes, and dropdown options."
+                            width="800"
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-lime-300">02 / BASIC WEB DEVELOPMENT</p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">Customer Repair Service Request Form</h3>
+                            <p class="mb-5 text-slate-300">
+                               Created a webpage for a customer repair service request using HTML tables, forms, input types, radio buttons, checkboxes, dropdowns, textareas, and buttons. 
+                               I also used external CSS to improve the page's appearance and layout.
+                            </p>
+                            <a
+                                class="text-sm text-lime-200 underline underline-offset-4 hover:text-blue-200"
+                                href="assets/images/html-css-page.jpg"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                    <article class="grid items-center gap-8 border-t border-slate-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="assets/images/my-portfolio.jpg"
+                            alt="A single-page personal portfolio featuring an introduction, skills, classwork activities, and contact information."
+                            width="800"
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-lime-300">03 / TAILWIND PORTFOLIO</p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">Personal Portfolio Website</h3>
+                            <p class="mb-5 text-slate-300">
+                                Developed a single-page personal portfolio website using HTML and Tailwind CSS.
+                                It includes sections about myself, my skills, class activities, and contact information.
+                            </p>
+                            <a
+                                class="text-sm text-lime-200 underline underline-offset-4 hover:text-blue-200"
+                                href="assets/images/my-portfolio.jpg"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section
+                id="contact"
+                class="grid items-start gap-12 border-t border-slate-600 py-16 md:grid-cols-2"
+                aria-label="Contact"
+            >
+                <div>
+                    <p class="mb-4 font-mono text-sm text-lime-200">CONTACT</p>
+                    <h2 class="mb-6 text-4xl font-semibold tracking-tight md:text-5xl">Let's connect<br>and learn together</h2>
+                    <p class="max-w-lg text-slate-300">
+                        I'm always open to learning new things, sharing
+                        ideas, and connecting with people who are also
+                        interested in technology. Feel free to reach out!
+                    </p>
+                </div>
+                <div class="rounded-md bg-lime-800 p-6 md:p-8">
+                    <p class="mb-4 text-sm text-slate-100">Say hello at</p>
+                    <a
+                        class="break-words text-xl font-semibold text-lime-300 underline underline-offset-4 hover:text-slate-300"
+                        href="mailto:thealnicolee@gmail.com"
+                    >
+                        thealnicolee@gmail.com
+                    </a>
+                    <div class="mt-8 border-t border-slate-600 pt-5 text-sm text-slate-300">
+                        <p>Cordova, Cebu, Philippines</p>
+                        <p class="mt-2">Cordova Public College · BSIT</p>
+                        <p class="mt-4">Usually checking messages after class.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="border-t border-slate-600">
+            <div
+                class="mx-auto flex max-w-6xl flex-wrap justify-between gap-3 px-6 py-6 text-sm text-slate-300"
+            >
+                <p>© 2026 Althea Nicole Inoc</p>
+                <p>BSIT, first year · Cebu, Philippines</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
+
